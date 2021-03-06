@@ -12,26 +12,25 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'KOCHI',
-          imageUrl: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/de/f0/eb/backwater-tourism.jpg?w=1000&h=-1&s=1',
+          imageUrl: 'https://static.toiimg.com/photo/71775173.cms',
           id: 1,
           linkUrl: ''
         },
         {
           title: 'HYDERABAD',
-          imageUrl: 'https://media-cdn.tripadvisor.com/media/photo-s/01/85/33/7e/charminar-the-brand-of.jpg',
+          imageUrl: 'https://etimg.etb2bimg.com/photo/73411431.cms',
           id: 2,
           linkUrl: ''
         },
         {
           title: 'BANGALORE',
-           imageUrl: 'https://d27p8o2qkwv41j.cloudfront.net/wp-content/uploads/2019/09/shutterstock_654767857.png',
+          imageUrl: 'https://hindi.nativeplanet.com/img/2018/05/vidhansouda-1526623381.jpg',
           id: 3,
           linkUrl: ''
         }
       ]
     };
   }
-
 
   render() {
     return (
