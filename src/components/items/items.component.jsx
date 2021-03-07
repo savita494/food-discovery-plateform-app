@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, withRouter } from 'react-router-dom';
 import {Link} from 'react-router-dom';
   import HotelPageHyderabad from '../../pages/hotelpagehyderabad/hotelpagehyderabad.components'
-//  import HotelPageHyderabad from '../../pages/hotelpagekochi/hotelpagekochi.components'
+  //import HotelPageHyderabad from '../../pages/hotels/hotels.components'
 //  import HotelPageHyderabad from '../../pages/hotelpagebangalore/hotelpagebangalore.components'
 
 import './items.styles.scss';
@@ -11,9 +11,7 @@ const Items = ({ title, imageUrl, size, history, linkUrl, match }) => (
  <div>
 
 <Link className='lnkClassList' to={"/hyderabad"}>
- switch {
-   
- }
+ 
 
   <div
     className={`${size} items`}
