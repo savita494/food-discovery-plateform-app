@@ -10,20 +10,21 @@ import './items.styles.scss';
 const Items = ({ title, imageUrl, size, history, linkUrl, match }) => (
  <div>
 
-<Link className='lnkClassList' to={"/hotelpagehyderabad.components"}>
+<Link className='lnkClassList' to={"/HotelPageHyderabad"}>
 
   <div
     className={`${size} items`}
     onClick={() => history.push(`${match.url}${linkUrl}`)}
   >  
-   
+
 
     <div
       className='background-image'
       style={{
         backgroundImage: `url(${imageUrl})`
       }}
-    />
+    /> 
+
 
     <div className='content'>
       
@@ -37,6 +38,7 @@ const Items = ({ title, imageUrl, size, history, linkUrl, match }) => (
     
   </div>
   </Link>
+
   </div>
 
   
