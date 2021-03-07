@@ -10,7 +10,10 @@ import './items.styles.scss';
 const Items = ({ title, imageUrl, size, history, linkUrl, match }) => (
  <div>
 
-<Link className='lnkClassList' to={"/HotelPageHyderabad"}>
+<Link className='lnkClassList' to={"/hyderabad"}>
+ switch {
+   
+ }
 
   <div
     className={`${size} items`}
