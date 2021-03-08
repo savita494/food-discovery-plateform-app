@@ -19,7 +19,7 @@ class Item extends Component
   render()
   {      
      
-     if(this.props.imageUrl==='https://static.toiimg.com/photo/71775173.cms')
+     if(this.props.imageUrl=='https://static.toiimg.com/photo/71775173.cms')
   {
     return(
       <div>
@@ -42,11 +42,11 @@ class Item extends Component
   }
   else if(this.props.imageUrl==='https://etimg.etb2bimg.com/photo/73411431.cms'){
     return(
-      <div>
+<div>
         <Link className='lnkClassList' to={"/hyderabad"}>
         <div
         className={` items`}
-
+      
   >
     <div       className='background-image'
       style={{
